@@ -1,0 +1,29 @@
+{
+  "name": "videoaudapp",
+  "version": "1.0.0",
+  "description": "Audio and Video App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aungarsynova/VideoAudApp.git"
+  },
+  "keywords": [
+    "Audio",
+    "Video"
+  ],
+  "author": "Aisana Ungasrynova and Caitlin MacKay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aungarsynova/VideoAudApp/issues"
+  },
+  "homepage": "https://github.com/aungarsynova/VideoAudApp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}
