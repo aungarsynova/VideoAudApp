@@ -1,7 +1,15 @@
 export default {
     props: ['liveuser'],
 
-    
+    template: `
+    <div class="container"
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>You're (finally) on the user's page!</h1>
+            </div>
+        </div>
+    </div>
+    `,
 
     data(){
         return {
@@ -46,6 +54,11 @@ export default {
                 .catch(function(error) {
                     console.log(error);
                 });
+        },
+        switchActiveMedia(media) {
+            console.log(media);
+
+            this.currentMediaDetails = media;
         }
     }
 }
