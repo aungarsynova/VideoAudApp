@@ -4,13 +4,13 @@ export default {
     //Put your HTML for LoginComponent in here. DO not delete back ticks -> `
     //Check _login.scss to play with colors, shapes, sizes and etc. for CSS
     template: `
-    <div class="container" id="login">
+    <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-2 col-xs-3"></div>
       <div class="col-md-4 col-sm-8 col-xs-6">
         <div class="panel panel-default">
           <div class="panel-body">
-          <h1> Welcome to Roku Flashback lol!</h1>
+          <h1> Welcome to Roku Flashback!</h1>
             <div class="form-group">
               <label>User Name </label>
               <div class="icon-holder">
