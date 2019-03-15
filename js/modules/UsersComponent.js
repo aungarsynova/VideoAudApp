@@ -10,7 +10,7 @@ export default {
 
             <user v-for="(user, index) in userList" :liveuser="user" :key="index"></user>
         </div>
-    </div>
+    </div> 
     `,
 
     created: function() {
