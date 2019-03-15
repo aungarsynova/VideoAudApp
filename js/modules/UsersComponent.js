@@ -5,11 +5,13 @@ export default {
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-            <h1 class="user-message text-center">{{message}}</h1>
+            <h1>Who is Watching Roku?</h1>
             </div>
 
             <user v-for="(user, index) in userList" :liveuser="user" :key="index"></user>
         </div>
+
+        <button type="button" class="btn btn-primary" id="newUser">New User</button>
     </div>
     `,
 

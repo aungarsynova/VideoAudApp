@@ -1,6 +1,6 @@
 <?php
 $user = "root";
-$password = ""; //blank for windows, root for mac
+$password = "root"; //blank for windows, root for mac
 $host = "localhost";
 $db = "netflix";
 
