@@ -17,6 +17,7 @@ export default {
             <p class="media-details" v-html="currentMediaDetails.movies_storyline"></p>
             <span class="media-time">{{currentMediaDetails.movies_runtime}}</span>
             <span class="media-year">Released in {{currentMediaDetails.movies_year}}</span>
+            <hr class="border">
         </div>
         
         </div>

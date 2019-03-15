@@ -4,12 +4,91 @@ html { position: relative; min-height: 100%; }
 
 body {
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	margin-bottom: 100px;
 	
 }
 
+
 .container-fluid {
-    background-color: black;
+    background-color: white;
 }
+
+#mainNav
+{
+	background-color: #FDF0FA; 
+	height: 70px;
+    border-bottom: 2px solid  #6C3C97;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font: impact;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #fff;
+    border-top: 2px solid  #6C3C97;    
+    margin-top: 30px;
+    }
+
+footer ul 
+{
+    align-self: auto;
+}
+
+#kids
+{
+    height: 20px;
+    width: 20px;
+}
+
+#logout
+{
+    height: 20px;
+    width: 20px;
+    color:  #6C3C97;
+}
+
+#login
+{
+    padding-bottom: 30px;
+}
+
+#newUser
+{
+    margin: 30px;
+    width: 100px;
+}
+
+ul.icons {
+	list-style-type: none;
+
+	li { 
+        display: inline-block;
+            font-size: 1rem;
+            color:black;
+			text-decoration: none;
+			size: 50px 50px;
+
+         li:hover { color: $roku-purple; }
+    }
+
+     li::after {
+        content: "|";
+        padding: 0 8px 0 13px;
+        color: #6C3C97;
+    }
+
+     li:last-of-type::after {
+        content: none;
+    }
+
+}
+
+

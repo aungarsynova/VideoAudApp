@@ -11,9 +11,11 @@ export default {
         <div class="panel panel-default">
           <div class="panel-body">
           <h1> Welcome to Roku Flashback!</h1>
-          <b-alert variant="danger" dismissible v-model="hideDismissibleAlert">
-          Dismissible Alert!
-        </b-alert>
+
+          <div class="failed">
+         
+        </div>
+        
             <div class="form-group">
               <label>User Name </label>
               <div class="icon-holder">
@@ -67,9 +69,10 @@ export default {
                 .then(res => res.json())
                 .then(data => {
                     if (typeof data !== "object") {
-                        console.log("Login attempt failed");
-                        //pop a toast notification or
-                        //let the user know something broke
+                       // console.log("Login attempt failed");
+                       var failedAlert = "<div class='alert alert-info'> <strong>Hey!</strong>You credentials are wrong. Try again!</div>";
+                       
+                        document.querySelector (".failed").innerHTML = failedAlert;
                         return;
                     }else{
                         this.$emit("authenticated", true);

@@ -1,92 +1,102 @@
 .fs-video { width: 100% }
 
-.media-container { 
-    background: darken($dark-bg, 15%)
+ .media-container { 
+    background: $dark-bg;
 }
 
-.media-container:first-of-type { 
+ .media-container:first-of-type { 
     padding-bottom: 1em; 
 }
 
-.media-container:last-of-type { 
+ .media-container:last-of-type { 
     padding-left: 0; padding-right: 0; 
 }
 
-// top left media details
+ h4 {
+	font-family: Impact, "Charcoal", sans-serif;
+}
+
+ p{
+    font-size: 20px;
+}
+
+
+ // top left media details
 .media-title { 
     font-size: 1.5em; 
     padding-top: 1em;
     font-weight: bolder; 
 }
 
-.media-details { font-size: 1.2em; padding: 0.5em 0; }
+ .media-details { font-size: 1.2em; padding: 0.5em 0; }
 
-.media-year, .media-time { font-size: 1em; }
+ .media-year, .media-time { font-size: 1em; }
 .media-year { display: block; float: right; }
 
-.side-nav { background: darken($dark-bg, 9%) }
+ .side-nav { background: $dark-bg;
+}
 
-// left hand pad list -> audio, film television
+ // left hand pad list -> audio, film television
 .media-type { 
     list-style-type: none;
     margin-bottom: 0;
-    
-    li { 
+
+     li { 
         padding: 1rem;
         cursor: pointer;
         display: inline-block;
         width: 33%;
         text-align: center;
 
-        span:first-of-type {  
+         span:first-of-type {  
             font-size: 2rem; 
-            color: white;
+            color: black;
         }
     }
 
-    li:hover span:first-of-type { color: $roku-purple }
+     li:hover span:first-of-type { color: $roku-purple }
 }
 
-// genre filter links
+ // genre filter links
 
-.media-genres {
+ .media-genres {
     list-style-type: none;
-    background: darken($dark-bg, 10%);
+    background: $dark-bg;
     margin: 0;
     padding: 1em 1em 1em 1.5em;
 
-    li { 
+     li { 
         display: inline-block;
 
-        a {
+         a {
             font-size: 1rem;
-            color: white;
+            color:black;
             text-decoration: none;
         }
-        
-        a:hover { color: $roku-purple; }
+
+         a:hover { color: $roku-purple; }
     }
 
-    li::after {
+     li::after {
         content: "|";
         padding: 0 8px 0 13px;
-        color: rgba(255,255,255,0.5);
+        color: #6C3C97;
     }
 
-    li:last-of-type::after {
+     li:last-of-type::after {
         content: none;
     }
 }
 
-// media thumbnails
+ // media thumbnails
 .media-info {
     padding-left: 0;
     padding-right: 0;
 
-    > div { padding: 0 10px; }
+     > div { padding: 0 10px; }
 }
 
-.thumbnail {
+ .thumbnail {
     height: 125px;
     width: 175px;
     margin: 0.7em;
@@ -95,27 +105,31 @@
     cursor: pointer;
 }
 
-.thumb-wrapper {
-  background: linear-gradient(to bottom right, #7d1e24, #bb2d35);
+ .thumb-wrapper {
+  background: linear-gradient(to bottom right, #6C3C97, rgb(194, 166, 218));
   padding: 20px; 
   padding-bottom: 30px;
   text-align: center;
   width: 100%;
 }
 
-.audio-thumb { height: 150px; }
+ .audio-thumb { height: 150px; }
 
-.audio-wrapper {
+ .audio-wrapper {
     background: $dark-bg;
 
-    img { max-width: 85%; display: block; margin: 0 auto; padding: 4% }
+     img { max-width: 85%; display: block; margin: 0 auto; padding: 4% }
 
-}
+ }
 
-audio {
+ audio {
     width: 70%;
     margin: 0 13%;
     position: absolute;
     bottom: 12%;
     opacity: 0.8;
 }
+
+ #vidPlayer{
+    border-bottom: 2px solid #6C3C97;
+} 
