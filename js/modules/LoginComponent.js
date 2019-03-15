@@ -11,6 +11,9 @@ export default {
         <div class="panel panel-default">
           <div class="panel-body">
           <h1> Welcome to Roku Flashback!</h1>
+          <b-alert variant="danger" dismissible v-model="hideDismissibleAlert">
+          Dismissible Alert!
+        </b-alert>
             <div class="form-group">
               <label>User Name </label>
               <div class="icon-holder">

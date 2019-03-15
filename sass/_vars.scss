@@ -1,5 +1,8 @@
 $dark-bg: rgb(26, 24, 24);
 $roku-purple: #6C3C97;
+$small: 589px;
+$medium: 767px;
+$large: 1023px;
 
 @mixin vertical-align($position: relative) {
     position: $position;
