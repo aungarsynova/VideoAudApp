@@ -4,6 +4,7 @@
 	height: 70px;
     border-bottom: 2px solid  #6C3C97;
     padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h1 {
 footer {
     background-color: #fff;
     border-top: 2px solid  #6C3C97;    
+    margin-top: 30px;
     }
 
 footer ul 
@@ -33,9 +35,16 @@ footer ul
 {
     height: 20px;
     width: 20px;
+    color:  #6C3C97;
 }
 
 #login
 {
     padding-bottom: 30px;
+}
+
+#newUser
+{
+    margin: 30px;
+    width: 100px;
 }
