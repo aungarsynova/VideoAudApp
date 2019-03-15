@@ -10,7 +10,7 @@ export default {
       <div class="col-md-4 col-sm-8 col-xs-6">
         <div class="panel panel-default">
           <div class="panel-body">
-          <h1> Welcome to Roku Flashback!</h1>
+          <h1> Welcome to Roku Flashback lol!</h1>
             <div class="form-group">
               <label>User Name </label>
               <div class="icon-holder">
