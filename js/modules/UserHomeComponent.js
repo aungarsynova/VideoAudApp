@@ -4,11 +4,124 @@ export default {
     //Caitlin, this is template.
     //Put your HTML for usersHomeComponent in here. DO not delete back ticks -> `
     template: `
-    <div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-        <h1 class="user-message text-center">{{message}}</h1>
-        </div>
+
+    <div>
+    <h1>Catch up on entertainment from the 50’s to the 90’s</h1>
+<div>
+<h2>Movies</h2>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"> title </h5>
+        <p class="card-text">description.</p>
+
+        <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video> 
+
+        <a href="#" class="btn btn-primary">view</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title"> title </h5>
+    <p class="card-text">description.</p>
+
+    <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video> 
+
+    <a href="#" class="btn btn-primary">view</a>
+  </div>
+    </div>
+  </div>
+</div>
+
+<div>
+<h2>Television</h2>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title"> title </h5>
+    <p class="card-text">description.</p>
+
+    <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video> 
+
+    <a href="#" class="btn btn-primary">view</a>
+  </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title"> title </h5>
+    <p class="card-text">description.</p>
+
+    <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video> 
+
+    <a href="#" class="btn btn-primary">view</a>
+  </div>
+    </div>
+  </div>
+</div>
+
+<div>
+<h2>Music</h2>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title"> title </h5>
+    <p class="card-text">description.</p>
+
+    <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video> 
+
+    <a href="#" class="btn btn-primary">view</a>
+  </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+    <div class="card-body">
+    <h5 class="card-title"> title </h5>
+    <p class="card-text">description.</p>
+
+    <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+    
+    <a href="#" class="btn btn-primary">view</a>
+  </div>
+    </div>
+  </div>
+</div>
+
+  </div>
     `,
 
     data(){
