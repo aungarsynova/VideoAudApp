@@ -1,4 +1,4 @@
-import UserComponent from './UserCOmponent.js'; 
+import UserComponent from './UserComponent.js'; 
 
 export default {
     template: `

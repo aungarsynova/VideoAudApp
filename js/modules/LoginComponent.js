@@ -1,4 +1,8 @@
 export default {
+  
+  //Caitlin, this is template.
+    //Put your HTML for LoginComponent in here. DO not delete back ticks -> `
+    //Check _login.scss to play with colors, shapes, sizes and etc. for CSS
     template: `
     <div class="container">
     <div class="row">
