@@ -92,8 +92,16 @@ export default {
                 </div>
             </div>       
         </div> <!-- end 2-up for media info -->
+
+        <div id="app">
+
+        <vue-goodshare></vue-goodshare>
+      
+      </div>
+
     </div>
     `,
+    
 
     data(){
         return {
