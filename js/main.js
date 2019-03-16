@@ -4,6 +4,8 @@
 import LoginComponent from './/modules/LoginComponent.js'; 
 import UsersComponent from './/modules/UsersComponent.js'; 
 import UserHomeComponent from './/modules/UserHomeComponent.js'; 
+import Vue from "vue";
+import VueGoodshare from "vue-goodshare";
 
 const routes = [
     { path: '/', redirect: {name:"login"} },
@@ -18,6 +20,12 @@ const router = new VueRouter({
 
 //then your vue instance
 const vm = new Vue({
+
+    el: "#app",
+
+    components: {
+        VueGoodshare
+      },
 
     data: {
         testmessage: "sup",

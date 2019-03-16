@@ -24,6 +24,8 @@
     "gulp": "^4.0.0"
   },
   "dependencies": {
-    "bulma": "^0.7.2"
+    "bulma": "^0.7.2",
+    "vue-goodshare": "^1.3.0",
+    "vue-socialmedia-share": "^1.0.1"
   }
 }
